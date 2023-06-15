@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
 :root {
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+
+    --soft-cyan--full-sb: hsl(174, 77%, 80%);
+    --strong-cyan--sb-bg: hsl(174, 86%, 45%);
+    --light-grayish-red--dt-bg: hsl(174, 86%, 45%);
+    --pale-blue--cta-txt: hsl(174, 86%, 45%);
+    --white: hsl(0, 0%, 100%);
+    --very-pale-blue--main-bg: hsl(230, 100%, 99%);
+    --light-grayish-blue--empty-sb: hsl(224, 65%, 95%);
+    --light-grayish-blue--toggle-bg: hsl(223, 50%, 87%);
+    --grayish-blue--txt: hsl(225, 20%, 60%);
+    --dark-desaturated-blue: hsl(227, 35%, 25%);
 }
