@@ -6,7 +6,6 @@
     box-shadow: 15px 15px 30px var(--box-shadow-1);
 }
 .pricing-component .top-section {
-    padding: 10px;
     display: grid;
     gap: 40px;
     grid-template-areas: 
@@ -81,9 +80,13 @@
     grid-area: billingContainer;
     display: grid;
     align-items: center;
-    gap: 16px;
-    grid-template-columns: calc(50% - 25px - 8px - 10px) 50px calc(50% - 25px - 8px - 10px);
+    gap: 10px;
+    grid-template-columns: calc(50% - 25px - 5px - 10px) 50px calc(50% - 25px - 5px - 10px);
     color: var(--grayish-blue--txt);
+}
+
+.pricing-component .top-section .billing-container p {
+    font-size: .8rem;
 }
 
 .pricing-component .top-section .billing-container p:first-child {
@@ -122,19 +125,20 @@
     transform: translateX(24px);
 }
 
-.billing-container p .discount-span {
+.billing-container p {
     position: relative;
 }
 
-.billing-container p .discount-span::after {
+.billing-container .discount-p::after {
     content: '-25%';
     background-color: var(--light-grayish-red--dt-bg);
-    padding: 5px 10px;
+    padding: 3px 6px;
     border-radius: 50px;
-    font-size: .7rem;
+    font-size: .65rem;
     font-weight: 800;
     color: var(--light-red);
     margin-left: 5px;
+    position: absolute;
 }
 
 .custom-checkbox input[type="checkbox"] {
@@ -196,6 +200,7 @@
         margin-top: 50px;
     }
     .pricing-component .top-section {
+        padding: 40px;
         grid-template-areas: 
         "pageviewsContainer priceContainer"
         "sliderContainer sliderContainer"
@@ -204,12 +209,14 @@
     .pricing-component .bottom-section {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
+        padding: 40px;
     }
 
     .pricing-component .bottom-section .feature {
         justify-content: flex-start;
     }
-    .billing-container p .discount-span::after {
+    .billing-container .discount-p::after {
         content: '25% discount';
+        position: unset;
     }
 }

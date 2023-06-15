@@ -19,9 +19,8 @@ export default function PricingComponent() {
                     <input type="checkbox" id="billing-yearly-checkbox"/>
                     <label htmlFor="billing-yearly-checkbox"></label>
                 </div>
-                <p>
+                <p className='discount-p'>
                     Yearly Billing
-                    <span className='discount-span'></span>
                 </p>
             </div>
         </section>
