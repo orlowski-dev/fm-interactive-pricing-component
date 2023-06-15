@@ -13,9 +13,33 @@ p {
     font-size: 15px;
 }
 
+.main-container {
+    width: 100%;
+    max-width: 550px;
+}
+
 #root {
-    padding: 30px;
+    padding: 30px 20px;
     height: 100vh;
     background-image: url('/images/bg-pattern.svg');
     background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    animation: .13s fadeIn;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
