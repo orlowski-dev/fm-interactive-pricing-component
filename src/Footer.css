@@ -11,6 +11,12 @@ footer .attribution a {
     text-decoration: none;
     font-weight: 800;
     color: var(--strong-cyan--sb-bg);
+    transition: color .13s ease-in;
+    cursor: pointer;
+}
+
+footer .attribution a:hover {
+    color: var(--soft-cyan--full-sb);
 }
 
 footer .created-with p {
