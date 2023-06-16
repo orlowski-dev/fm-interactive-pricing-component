@@ -23,7 +23,6 @@ p {
     height: 100vh;
     background-image: url('/images/bg-pattern.svg');
     background-repeat: no-repeat;
-    background-position: top center;
 
     display: flex;
     align-items: center;
@@ -42,5 +41,11 @@ p {
     }
     to {
         opacity: 1;
+    }
+}
+
+@media (min-width: 1440px) {
+    #root {
+        background-position: top center;
     }
 }
