@@ -9,11 +9,11 @@ export default function Footer() {
         <div className="created-with">
             <p>
                 Created with
-                <img src="/images/heart-svgrepo-com.svg" alt="heart icon" />
+                <img src="./images/heart-svgrepo-com.svg" alt="heart icon" />
                 +
-                <img src="/images/vite.svg" alt="vite logo" />
+                <img src="./images/vite.svg" alt="vite logo" />
                 +
-                <img src="/images/react.svg" alt="react logo" />
+                <img src="./images/react.svg" alt="react logo" />
             </p>
         </div>
     </footer>
