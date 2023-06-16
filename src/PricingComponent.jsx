@@ -61,15 +61,15 @@ export default function PricingComponent() {
             <h2 className='visually-hidden'>Features</h2>
             <div className="features">
                 <div className='feature'>
-                    <img src="/images/icon-check.svg" alt="icon check" />
+                    <img src="./images/icon-check.svg" alt="icon check" />
                     <p>Unlimited websites</p>
                 </div>
                 <div className='feature'>
-                    <img src="/images/icon-check.svg" alt="icon check" />
+                    <img src="./images/icon-check.svg" alt="icon check" />
                     <p>100% data ownership</p>
                 </div>
                 <div className='feature'>
-                    <img src="/images/icon-check.svg" alt="icon check" />
+                    <img src="./images/icon-check.svg" alt="icon check" />
                     <p>Email reports</p>
                 </div>
                 </div>
