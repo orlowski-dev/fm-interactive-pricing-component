@@ -206,6 +206,9 @@
         "sliderContainer sliderContainer"
         "billingContainer billingContainer";
     }
+    .pricing-component .top-section .pageviews-container h2 {
+        text-align: left;
+    }
     .pricing-component .bottom-section {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
